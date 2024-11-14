@@ -2,26 +2,14 @@
 ## This is an academic project assosiated with Vellore Institute of Technology 
 
 ## Project Overview 
-In this project, we have developed a Convolutional Neural Network (CNN) based image classification system using OpenCV and TensorFlow. The objective of this system is to distinguish between two emotional states, happiness and sadness, by analysing the content of images. The motivation behind this project is to create a user-friendly tool that allows users to input their own images and obtain predictions regarding the emotional state conveyed in those images. Rather than focusing on standard classification metrics like accuracy or recall, the emphasis here is on providing users with an intuitive, real-time emotional analysis tool.
+This project develops a Convolutional Neural Network (CNN) to classify images as expressing either happiness or sadness. The goal is to create a user-friendly tool that can analyze uploaded images and provide real-time emotional predictions
 
 ## Methodology 
-Step 1: Data Preparation
-•	Collect and preprocess image data, ensuring consistent size, format, and normalization.
-Step 2: Model Architecture Design
-•	Determine the number and type of convolutional and pooling layers.
-•	Choose filter sizes, strides, and activation functions for each layer.
-Step 3: Model Training
-•	Split data into training, validation, and test sets.
-•	Initialize CNN weights randomly.
-•	Select an optimizer (e.g., SGD, Adam, etc.) and set learning rate, batch size.
-•	Train the CNN by feeding training data and updating weights based on loss.
-Step 4: Model Evaluation
-•	Test the trained CNN on the unseen test set to assess generalization.
-•	Calculate performance metrics (accuracy, precision, recall, F1 score).
-Step 5: Deployment and Optimization
-•	Integrate the trained CNN into an application or system.
-•	Continuously improve the CNN with new data and parameter tuning
 
+1. **Data Preparation**: Collect and preprocess image data, ensuring consistent size, format, and normalization.
+2. **Model Design**: Determine the CNN architecture, including the number and type of convolutional/pooling layers, filter sizes, strides, and activation functions.
+3. **Training**: Split data into training, validation, and test sets. Train the CNN by updating weights based on loss.
+4. **Evaluation**: Test the trained CNN on unseen data to assess performance metrics like accuracy, precision, recall, and F1 score.
 
 ## Model Used 
 1. Input Shape
@@ -33,5 +21,4 @@ Parameters
 ![image](https://github.com/user-attachments/assets/9f0c8697-211a-4f7e-83ef-d43e2a7153a2)
 
 ## Result
-Given images containing human faces, the model will identify the emotion being expressed by the person in each image, specifically whether they are happy or sad with an accuracy of more than 95%
-
+The model achieves over 95% accuracy in classifying human faces as expressing happiness or sadness. Users can upload their own images and get instant emotional predictions
