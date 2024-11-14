@@ -1,5 +1,5 @@
 # Convolution-Neural-Network-powered-Image-Classification
-## This is an academic project assosiated with Vellore Institute of Technology 
+## This is an academic project assosiated with Vellore Institute of Technology (June 2023-December 2023)
 
 ## Project Overview 
 This project develops a Convolutional Neural Network (CNN) to classify images as expressing either happiness or sadness. The goal is to create a user-friendly tool that can analyze uploaded images and provide real-time emotional predictions
