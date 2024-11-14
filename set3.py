@@ -129,7 +129,7 @@ print(pre.result(), re.result(), acc.result())
 
 import cv2
 
-img = cv2.imread('koushik.jpeg')
+img = cv2.imread('k-sad.jpeg')
 plt.imshow(img)
 plt.show()
 
