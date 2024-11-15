@@ -1,4 +1,4 @@
-# Convolution-Neural-Network-powered-Image-Classification hi hello a
+# Convolution-Neural-Network-powered-Image-Classification hi 
 ## This is an academic project assosiated with Vellore Institute of Technology (June 2023-December 2023)
 
 ## Project Overview 
