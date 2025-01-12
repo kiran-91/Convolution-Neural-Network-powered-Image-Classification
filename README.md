@@ -21,4 +21,4 @@ Parameters
 ![image](https://github.com/user-attachments/assets/9f0c8697-211a-4f7e-83ef-d43e2a7153a2)
 
 ## Result
-The model achieves over 95% accuracy in classifying human faces as expressing happiness or sadness. Users can upload their own images and get instant emotional predictions
+The model achieves over 96% accuracy in classifying human faces as expressing happiness or sadness. Users can upload their own images and get instant emotional predictions.
